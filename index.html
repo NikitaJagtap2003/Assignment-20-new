@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        
+        .head{
+            text-align: center;
+        }
+        .box{
+            border: 2px solid black;
+            height: 350px;
+            width: 250px;
+            margin: 10px;
+        }
+        .sub{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+           
+        }
+        .sub1{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .sub2{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            
+        }
+        .sub3{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: start;
+            text-align: center;
+            align-content:space-around;
+            }
+        .sub4{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: end;
+        text-align: center;
+        justify-content: space-evenly;
+        
+        }
+        .sub5{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: end;
+        }
+        .box1{
+            border: 2px solid black;
+            height: 350px;
+            width: 250px;
+            margin: 10px;
+
+        }
+        .box2{
+            border: 2px solid black;
+            height: 350px;
+            width: 250px;
+            margin: 10px;
+           
+        }
+        .img{
+            height: 120px;
+            width: 150px;
+            margin-top: 30px;
+        }
+        .para{
+            text-align: center;
+        }
+        .para_1{
+            text-align: start;
+            margin-left: 7px;
+        }
+        .btn{
+            color: maroon;
+            background-color: coral;
+            border-radius: 10px 0 10px 0;
+            padding: 9px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+        <h1>Flexboxses</h1>
+    </div>
+        <hr>
+        <div class="sub">
+            <div class="box">
+                <img src="mobile.webp" alt="" class="img">
+                <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                <p class="para_1">₹65,499₹79,60017% off
+                </p>
+                <button class="btn">buy now</button>
+            </div>
+            <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                <p class="para_1">₹7,699₹11,99935% off
+                </p>
+                <button class="btn">buy now</button>
+            </div>
+            <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                <p class="para_1">₹7,699₹11,99935% off
+                </p>
+                <button class="btn">buy now</button>
+            </div>
+        </div>
+        <hr>
+        
+            <div class=" sub1" >
+                <div class="box">
+                    <img src="mobile.webp" alt="" class="img">
+                    <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                    <p class="para_1">₹65,499₹79,60017% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                    <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+            </div>
+            <hr>
+            <div class=" sub2" >
+                <div class="box">
+                    <img src="mobile.webp" alt="" class="img">
+                    <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                    <p class="para_1">₹65,499₹79,60017% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                    <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+            </div>
+            <hr/>
+            <div class=" sub3" >
+                <div class="box">
+                    <img src="mobile.webp" alt="" class="img">
+                    <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                    <p class="para_1">₹65,499₹79,60017% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                    <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+            </div>
+            <hr>
+            <div class=" sub4" >
+                <div class="box">
+                    <img src="mobile.webp" alt="" class="img">
+                    <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                    <p class="para_1">₹65,499₹79,60017% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                    <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+            </div>
+            <hr>
+            <div class=" sub5" >
+                <div class="box">
+                    <img src="mobile.webp" alt="" class="img">
+                    <p class="para"><b>Apple iPhone 15 (Black, 128 GB)</b></p>
+                    <p class="para_1">₹65,499₹79,60017% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box1"><img src="mobile1.webp" alt="" class="img">
+                    <p class="para"><b>REDMI 13C (Stardust Black, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+                <div class="box2"><img src="mobile2.webp" alt="" class="img"> <p class="para"><b>REDMI 13C (Starshine Green, 128 GB) </b></p>
+                    <p class="para_1">₹7,699₹11,99935% off
+                    </p>
+                    <button class="btn">buy now</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
